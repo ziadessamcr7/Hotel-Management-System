@@ -1,0 +1,36 @@
+.signIn-img {
+    background-image: url('./assets/imgs/loginImg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.signIn-text {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+}
+
+.forget-img {
+    background-image: url('./assets/imgs/forgetImg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.register-img {
+    background-image: url('./assets/imgs/RegisterImg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+    background-color: rgb(39, 61, 155) !important;
+}
