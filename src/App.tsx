@@ -34,7 +34,9 @@ const routes = createBrowserRouter([
   },
   {
     path: 'home',
-    element: <MasterLayout />,
+    element: <ProtectedRoute>
+      <MasterLayout />
+    </ProtectedRoute>,
     errorElement: <NotFound />,
     children: [
       { path: '', element: <Home /> },
