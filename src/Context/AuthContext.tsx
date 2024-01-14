@@ -11,7 +11,7 @@ export default function AuthContextProvider({ children }: any) {
 
 
     let requestHeaders =
-        { Authorization: `Bearer ${localStorage.getItem('hmsUserToken')}` }
+        { Authorization: `${localStorage.getItem('hmsUserToken')}` }
 
     let baseUrl = "http://154.41.228.234:3000/api/v0"
 

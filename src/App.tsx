@@ -17,6 +17,7 @@ import Users from './UsersModule/Users'
 import Rooms from './RoomsModule/Rooms'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import Facilities from './Facilities/Facilities'
 
 
 const routes = createBrowserRouter([
@@ -45,6 +46,7 @@ const routes = createBrowserRouter([
       { path: 'ads', element: <Ads /> },
       { path: 'users', element: <Users /> },
       { path: 'rooms', element: <Rooms /> },
+      { path: 'facilities', element: <Facilities /> },
     ]
 
   }

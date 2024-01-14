@@ -89,7 +89,7 @@ export default function SideBar() {
                         component={<Link to="/home/rooms" />}>Rooms
                     </MenuItem>
                     <MenuItem title='facilities' icon={<i className="fa-solid fa-person-shelter"></i>}
-                        component={<Link to="/home/rooms" />}>Facilities
+                        component={<Link to="/home/facilities" />}>Facilities
                     </MenuItem>
 
                     <MenuItem title='change passsword' onClick={handleOpen} icon={<i className="fa-solid fa-unlock"></i>}
