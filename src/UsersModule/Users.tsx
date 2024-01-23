@@ -26,15 +26,7 @@ export default function UsersList() {
 
     const [userId, setUserId] = useState(null)
 
-    const [usersList, setUsersList] = useState(null)
-
-    const [pagesArray, setPagesArray] = useState([])
-
-    const [searchString, setSearchString] = useState('')
-
-    const [totalNumOfPages, setTotalNumOfPages] = useState(0)
-
-
+    const [usersList, setUsersList]: any = useState(null)
 
     const { baseUrl, requestHeaders }: any = useContext(AuthContext)
 
@@ -46,7 +38,7 @@ export default function UsersList() {
             headers: requestHeaders,
             params: {
                 page: 1,
-                size: 50
+                size: 100
 
             }
         }).then((response) => {
@@ -131,16 +123,9 @@ export default function UsersList() {
                         component="div"
                         onPageChange={handlechangepage}
                         onRowsPerPageChange={handleRowsPerPage}
-
                     >
-
                     </TablePagination> </>}
-
             </>}
-
-
-
-
         </div >
     )
 

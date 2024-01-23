@@ -34,3 +34,8 @@
 .css-1t8x7v1>.ps-menu-button:hover {
     background-color: rgb(39, 61, 155) !important;
 }
+
+.room-img {
+    width: 45px;
+    height: 45px;
+}
